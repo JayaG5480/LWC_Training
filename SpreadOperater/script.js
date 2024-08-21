@@ -1,0 +1,14 @@
+console.log('Spread Operators Demo');
+let myfruits = ["Apple","Banana","watermilone"];
+console.log('myfruits',myfruits);
+let onefruit = ["Grapes"];
+console.log('onefruit',onefruit);
+let allfruites= [...onefruit, ...myfruits];
+console.log('allfruites',allfruites);
+let mystring = "My Apple";
+let charlist = [...mystring];
+console.log('charlist',charlist);
+let mf =[...myfruits];
+console.log('mf',typeof mf);
+let secondruit = [...myfruits,'Avacado'];
+console.log("secondruit",secondruit);

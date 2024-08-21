@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Full Name" icon-name="custom:custom14">
+    <div class="slds-p-around_medium lgc-bg">
+        <lightning-input type="text" label="First Name" placeholder="First Name" onchange={firstnamechangeHandler}></lightning-input>
+    </div>
+    <div class="slds-p-around_medium lgc-bg">
+        <lightning-input type="text" label="Second Name"  placeholder="Second Name"  onchange={secondnamechangeHandler}></lightning-input>
+    </div>
+    <div class="slds-p-around_medium lgc-bg">
+        <lightning-button label="Full Name" variant="brand" onclick={clickHandler}></lightning-button>
+      </div>
+      <div class="slds-p-around_medium lgc-bg">
+        <lightning-formatted-text value={fullname}></lightning-formatted-text>
+      </div>
+</lightning-card>
+</template>
