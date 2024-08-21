@@ -12,3 +12,5 @@ let mf =[...myfruits];
 console.log('mf',typeof mf);
 let secondruit = [...myfruits,'Avacado'];
 console.log("secondruit",secondruit);
+let allfruitesin = [...myfruits,...secondruit];
+console.log('allfruites---------->',allfruitesin);
