@@ -20,6 +20,9 @@ for (const iterator of myarry) {
     console.log(iterator);
 }
 //access the values
+//entries()we can use for the get key and value of object
+//key()used for  get the key
+//values()used for get the value 
 for (const [index,values] of myarry.entries()) {
     console.log(index,values);
 }
